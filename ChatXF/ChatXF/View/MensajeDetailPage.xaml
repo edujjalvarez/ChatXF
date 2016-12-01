@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChatXF.View.MensajeDetailPage">
+  <ContentPage.Content>
+  </ContentPage.Content>
+  <StackLayout>
+    <Label Text="Usuario"></Label>
+    <Entry Text="{Binding User}"></Entry>
+    <Label Text="Mensaje"></Label>
+    <Entry Text="{Binding Message}"></Entry>
+    <Label Text="Fecha y Hora"></Label>
+    <Entry Text="{Binding DateTime}"></Entry>
+  </StackLayout>
+</ContentPage>
