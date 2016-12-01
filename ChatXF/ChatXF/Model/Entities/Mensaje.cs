@@ -30,6 +30,7 @@ namespace ChatXF.Model.Entities
             set { _user = value; OnPropertyChanged(); }
         }
 
+        [JsonProperty("createdAt")]
         private DateTime _dateTime;
         public DateTime DateTime
         {
